@@ -43,7 +43,7 @@ const Article = () => {
                         setFiltred(
                             Articles.slice(0, postNumber)
                         );
-                    }, 4000);
+                    }, 1000);
                 }
             }
         }
@@ -70,7 +70,7 @@ const Article = () => {
                             <img id="img" src={article.image} />
                         </div>
                         <div className="col-md-7">
-                            <p className="title">{article.title} {article.id}</p>
+                            <p className="title">{article.title}</p>
                             <p className="description">{article.desc}</p>
                             <div className="d-flex justify-content-start" id="container-more">
                                 <span className="line"></span>
