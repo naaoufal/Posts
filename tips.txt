@@ -1,0 +1,9 @@
+- following the commands :
+
+# git clone https://github.com/naaoufal/Posts
+
+# npm install
+
+# npm start
+
+- for Searching i try to use 2 keywords in the first two article (searchone, searchtwo).

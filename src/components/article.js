@@ -59,9 +59,6 @@ const Article = () => {
                     <input onChange={(event) => handleSearch(event)} className="inp" type="text" placeholder="Recherche par mot clé" />
                 </div>
             </div>
-
-            {/* test */}
-            {/* end test */}
         
             {filtred.map((article, index) => (
                 <div key={index} className="" id="card">
@@ -87,6 +84,8 @@ const Article = () => {
                     </div>
                 </div>
             ))}
+
+            {/* Rendering result for loading */}
             {loading && hasMore ? <center><img src="images/loading.gif" /></center> : null}
         </div>
     )
